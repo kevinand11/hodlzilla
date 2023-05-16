@@ -5,7 +5,11 @@ export default {
     extend: {
         colors: {
             'primary' : '#FDFFB8',
-            'secondary' : '#909190'
+            'secondary' : '#909190',
+            'auxiliary' : '#FFD252',
+            'gradient-start' : '#F5F1DA',
+            'gradient-middle' : '#D9D9D9',
+            'gradient-end' : '#EEEEFF'
         },
         fontFamily: {
             'primary' : ['Raleway', 'sans-serif']
