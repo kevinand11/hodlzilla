@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+        colors: {
+            'primary' : '#FDFFB8',
+            'secondary' : '#909190'
+        },
+        fontFamily: {
+            'primary' : ['Raleway', 'sans-serif']
+        }
+    },
   },
   plugins: [],
 }
