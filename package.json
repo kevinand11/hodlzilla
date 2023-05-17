@@ -8,7 +8,8 @@
     "build": "vite build",
     "build:css": "yarn tailwindcss -i ./src/input.css -o ./dist/output.css",
     "preview": "vite preview",
-    "generate": "yarn build && yarn build:css"
+    "generate": "yarn build && yarn build:css",
+    "deploy": "node bin/deploy.js"
   },
   "devDependencies": {
     "execa": "^7.1.1",
